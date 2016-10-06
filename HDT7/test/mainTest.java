@@ -1,8 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+UVG
+HDT 7
+Ramon Samayoa
+Jorge Mario Lara
+Miercoles 5 de Cotubre de 2016
+*/
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -13,7 +15,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Jorge
+ * @author Jorge, Ramon
  */
 public class mainTest {
     

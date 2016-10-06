@@ -1,8 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+UVG
+HDT 7
+Ramon Samayoa
+Jorge Mario Lara
+Miercoles 5 de Cotubre de 2016
+*/
 
 import java.util.Vector;
 import org.junit.After;
@@ -14,7 +16,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Jorge
+ * @author Jorge, Ramon
  */
 public class CodificacionTest {
     
@@ -71,7 +73,7 @@ public class CodificacionTest {
         System.out.println("Cdatos");
         Tree find = null;
         Codificacion instance = null;
-        instance.Cdatos(find);
+        instance.Data(find);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
@@ -108,10 +110,10 @@ public class CodificacionTest {
      */
     @Test
     public void testGetMsg() {
-        System.out.println("getMsg");
+        System.out.println("getMensaje");
         Codificacion instance = null;
         String expResult = "";
-        String result = instance.getMsg();
+        String result = instance.getMensaje();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
@@ -122,10 +124,10 @@ public class CodificacionTest {
      */
     @Test
     public void testSetMsg() {
-        System.out.println("setMsg");
-        String msg = "";
+        System.out.println("setMensaje");
+        String mensaje = "";
         Codificacion instance = null;
-        instance.setMsg(msg);
+        instance.setMensaje(mensaje);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
